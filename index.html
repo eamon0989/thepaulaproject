@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Paula</h1>
+
+
+<div class="custom-select" style="width: 80vw;">
+    <label for="choose">Has Eamon </label>
+<select name="choose" id="chooseone" onchange="setFix()">
+  <option id="stupid" value="stupid">done something stupid?</option>
+  <option id="notdone" value="notdone">not done something?</option>
+  <option id="angry" value="angry">gotten angry?</option>
+  <option id="ignore" value="ignore">been very tired today and ignored you?</option>
+  <option id="noreason" value="noreason">been ignoring you for no reason?</option>
+</select>
+</div>
+<p id="demo"></p>
+<p id="stupidp">Remember that he is a dumbass and makes a lot of mistakes, but that's why he has an awesome wife like you to to help him get better. Please write down here what he did wrong and how it made you feel and he will try and improve in the future.</p>
+<p id="notdonep">Remember that his brain is broken and he may have forgotten, write down here what he should have done and he'll try to do better next time.</p>
+<p id="angryp">First he wants you to know that he is very sorry. His brain is broken and he doesn't know how to control it, but he knows that is no excuse. Look at this cute picture of you together and remember all the good times!<img id="cute" src="cute.jpg"></p>
+<p id="ignorep">He's probably overwhelmed and has been doing too much, when this happens he tends to shut down. Tell him that you need to spend some time with him and he will.</p>
+<p id="noreasonp">His dumbass brain doesn't work very well and sometimes he hyper-focuses on stupid things. Click here to remind him that you need some time with him.</p>
+</p>
+
+<div class="button">
+<button onClick="refreshPage()">Press here to reset</button>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
